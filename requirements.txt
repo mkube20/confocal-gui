@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+PyQt5        # or PySide6 / PyQt6
+
+# Real hardware only (not needed for the simulator):
+pyvisa       # laser current drivers
+# pyscan     # instrument-control package; install separately and set "pyscan_path" in confocal_gui/config.py
+
+# Optional, for ptu_timestamps.show_hdf5:
+h5py

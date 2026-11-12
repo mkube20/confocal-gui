@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Machine-specific settings and state written by the GUI at run time
+confocal_config.json
+python_path.txt
+.confocal_python.txt
+.picoharp_index.txt
+.last_stage_position.json
+.alignment.json
+.scan_timing.json
+
+# Locally downloaded installers
+offline_wheels/
